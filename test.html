@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script src="ajax.js"></script>
+<script>
+    document.onclick = function(){
+        // 最简化版
+        // ajax({
+        //     url:"https://www.daxunxun.com/douban",
+        //     success:function(res,status,xhr){
+        //         // console.log(res,status,xhr)
+        //         console.log(xhr)
+        //     }
+        // })
+
+        // // 非跨域的能发数据，有成功，有失败的ajax-post的使用
+        // ajax({
+        //     url:"https://www.daxunxun.com/users/login",
+        //     type:"post",
+        //     data:{
+        //         username: "1869616****",
+        //         password: '123456'
+        //     },
+        //     success:function(res,status,xhr){
+        //         console.log(res,status,xhr)
+        //     },
+        //     error:function(a,b,c){
+        //         console.log(a,b,c)
+        //     }
+        // })
+
+        // 跨域的ajax，有成功，有失败（超时）
+        // ajax({
+        //     url:"https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
+        //     type:"jsonp",
+        //     data:{
+        //         wd:"上海"
+        //     },
+        //     jsonpName:"cb",
+        //     timeout:2000,
+        //     success:function(res,status,xhr){
+        //         console.log(res,status,xhr)
+        //     },
+        //     error:function(a,b,c){
+        //         console.log(a,b,c)
+        //     }
+        // })
+    }
+</script>
+</html>
