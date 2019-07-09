@@ -1,2 +1,1 @@
-# ajax_demo
-# ajax_demo
+# ajax请求/发送的封装
